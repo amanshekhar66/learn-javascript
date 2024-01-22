@@ -28,5 +28,5 @@ console.log(newVal+5); // 125
 console.log(newVal +5 +10) // 12510
 console.log(5+10+newVal); // 1512
 
-console.log(+true);
-console.log(+"");
+console.log(+true); // 1
+console.log(+""); // 0

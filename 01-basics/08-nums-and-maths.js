@@ -19,3 +19,29 @@ console.log(newVal.toPrecision(2)); // 1.2e+2 => The idea is that it considers t
 
 let money = 100000000;
 console.log(money.toLocaleString('en-In')); // It adds comma in between numbers to make it more readable
+
+
+// ---------------------------------------***-----------------------------------------------------------------------------------------
+
+console.log(Math);
+
+console.log(Math.abs(-4)); // It changes the negative sign to postive and leave positive as positive
+
+console.log(Math.round(4.5)) // 5
+console.log(Math.floor(4.5)); // 4
+console.log(Math.ceil(4.5)); // 5
+
+console.log(Math.max(4,5,7,9,10)); // 10
+console.log(Math.min(4,5,7,9,10)); // 4
+
+console.log(Math.random());
+
+const max = 20;
+const min = 10;
+
+console.log(Math.floor(Math.random() * (max-min +1) + min)); 
+/*
+max - min => Range of values
++1 => to avoid zero value in ase of 0.04 type
++ min => To get the values in the range of 10 and 20
+*/
